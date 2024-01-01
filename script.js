@@ -45,34 +45,34 @@ async function checkWeather(city) {
     // Updated switch statement for weather images
     switch (weather_data.weather[0].main) {
       case 'Clouds':
-        weather_img.src = "/images/cloud.png";
+        weather_img.src = "/Orginal-WeatherAPP/images/cloud.png";
         break;
       case 'Clear':
-        weather_img.src ="/images/clear.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/clear.png";
         break;
       case 'Rain':
-        weather_img.src ="/images/rain.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/rain.png";
         break;
       case 'Haze':
-        weather_img.src ="/images/haze.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/haze.png";
         break;
       case 'Snow':
-        weather_img.src ="/images/snow.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/snow.png";
         break;
       case 'Fog':
-        weather_img.src ="/images/fog.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/fog.png";
         break;
       case 'Thunderstorm':
-        weather_img.src ="/images/Thunderstorm.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/Thunderstorm.png";
         break;
       case 'Tornado':
-        weather_img.src ="/images/tornado.png";
+        weather_img.src ="/Orginal-WeatherAPP/images/tornado.png";
         break;
       case 'Windy':
-        weather_img.src ="/images/windy.png"; // Update with the correct path
+        weather_img.src ="/Orginal-WeatherAPP/images/windy.png"; // Update with the correct path
         break;
       default:
-        weather_img.src = "/images/404.png";
+        weather_img.src = "/Orginal-WeatherAPP/images/404.png";
         break;
     }
     
